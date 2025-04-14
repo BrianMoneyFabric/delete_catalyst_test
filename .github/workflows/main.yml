@@ -8,7 +8,7 @@ on:
 jobs:
   build_test:
     name: test only
-    runs-on: macos-13
+    runs-on: self-hosted
     timeout-minutes: 60
     steps:
       - name: Install and set Flutter version
